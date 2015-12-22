@@ -1,0 +1,14 @@
+<div layout-align="start center" class="animate" ng-controller="UserController" ng-init="animationStart();">
+  <div layout="row" layout-align="center" class="md-padding logo"> <img src="img/logo.png" alt=""> </div>
+  <div class="md-padding">
+    <md-input-container flex md-no-float class="focused">
+        <input type="text" placeholder="User Name" class="userName" ng-model="user.name">
+    </md-input-container>
+     <md-input-container flex layout="row" layout-align="center">
+         
+       <md-button ng-click="userSearch();" class="md-fab md-primary" aria-label="Use Android">
+          <md-icon md-svg-src="img/refresh55.svg"></md-icon>
+        </md-button>
+    </md-input-container>
+  </div>
+</div>
